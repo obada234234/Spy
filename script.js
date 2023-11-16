@@ -2,7 +2,7 @@ function navigate(section) {
     const content = document.getElementById('content');
 
     if (section === 'contact') {
-        content.innerHTML = '<p> ادخل سيرفري ديسكورد من<a href="https://discord.gg/FRCZ8RfVu4"> هنا </a>وافتح تكت و اطلبني او كلمني ديسكورد على اليوزر 2g._</p>';
+        content.innerHTML = '<h1>يمكنك التواصل معي عبر احد حسابات التواصل الاجتماعي.</h1>';
     } else if (section === 'social') {
         content.innerHTML = `
             <div class="social-buttons">
@@ -18,6 +18,6 @@ function navigate(section) {
     } else if (section === 'instagram') {
         window.location.href = 'https://www.instagram.com/obada_an/';
     } else if (section === 'about') {
-        content.innerHTML = '<p>انسان بيحب ديسكورد.</p>';
+        content.innerHTML = '<h1>It's nothing</h1>';
     }
 }
