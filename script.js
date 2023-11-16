@@ -12,7 +12,7 @@ function navigate(section) {
             </div>
         `;
     } else if (section === 'discord') {
-        window.location.href = 'https://discord.gg/GZy6gX6RV5';
+        window.location.href = 'https://discord.gg/tRZC68vzpY';
     } else if (section === 'facebook') {
         window.location.href = 'https://web.facebook.com/profile.php?id=100091548457374';
     } else if (section === 'instagram') {
